@@ -18,3 +18,25 @@ body {
   display: flex;
   text-shadow: #858ebc -2px 2px 8px;
 }
+
+#content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  margin-top: 30%;
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+  font-size: 32px;
+}
+
+#content p {
+  box-sizing: border-box;
+  margin: 0px;
+  font-weight: 800;
+  font-family: sans-serif;
+  width: 13px;
+  display: flex;
+  align-items: center;
+  overflow: clip;
+}
